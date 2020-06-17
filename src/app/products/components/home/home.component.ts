@@ -43,7 +43,9 @@ addToFavorites(index:number) {
 
 
 
-
+ToProducts(){
+  document.getElementById("products").scrollIntoView({behavior:"smooth"});
+}
 
 }
 

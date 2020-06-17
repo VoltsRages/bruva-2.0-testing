@@ -11,6 +11,7 @@ import { FavoritesComponent } from './products/components/favorites/favorites.co
 import { CheckoutComponent } from './products/components/checkout/checkout.component';
 import { FormsModule } from '@angular/forms';
 import { OrdersComponent } from './products/components/orders/orders.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -34,7 +35,8 @@ import { OrdersComponent } from './products/components/orders/orders.component';
     NavbarComponent,
     FavoritesComponent,
     CheckoutComponent,
-    OrdersComponent
+    OrdersComponent,
+    FooterComponent
   ],
   bootstrap: [AppComponent]
 })
